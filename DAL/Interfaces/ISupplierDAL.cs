@@ -6,7 +6,7 @@ namespace DAL.Interfaces
     public interface ISupplierDAL
     {
         int AddSupplier(SupplierDTO supplier);
-        int DeleteSuppliersByID(int id);
+        int DeleteSupplierByID(int id);
         SupplierDTO GetSupplierByID(int id);
         List<SupplierDTO> GetAllSuppliers();
     }
